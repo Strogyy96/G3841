@@ -5,7 +5,7 @@ int ReadData(string msg)
     Console.WriteLine(msg);
     return int.Parse(Console.ReadLine() ?? "0");
 }
-
+// генерируем массив
 int[] Gen1DArr(int num, int begin, int end)
 {
      Random rnd = new Random();
